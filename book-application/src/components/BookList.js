@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import axios from 'axios';
 import { openBookDetails, deleteBook } from '../actions/bookActions';
 import AddBookModal from './AddBookModal';
 import BookDetailsModal from './BookDetailsModal';
