@@ -33,7 +33,7 @@ const AddBookModal = ({ closeModal }) => {
         <label>Description:</label>
         <input type="text" name="description" onChange={handleInputChange} />
         <button onClick={handleAddBook}>Add Book</button>
-        <button onClick={handleClosePopUp}>Close Popup</button>
+        <button onClick={handleClosePopUp}>Cancel</button>
       </div>
     </div>
   );
